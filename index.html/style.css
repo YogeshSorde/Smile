@@ -1,0 +1,150 @@
+#Nav1{
+    width:90% ;
+    height: 80px;
+    /* border: 1px solid rgb(131, 126, 126); */
+    margin: auto;
+    display: flex;
+     }
+     #Nav1>a{
+     color: rgb(195, 72, 140);
+  }
+     .in{
+      width: 350px;
+      height: 50px;
+      margin-left: 100px;
+      margin-top: 15px;
+      font-size: 15px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     #Nav1 h2{
+          margin-left: 50px;
+     }
+     h3{
+        margin: auto;
+        margin-top: 20px;
+     }
+     #Nav2{
+     width: 100%;
+     height: 50px;
+     border: 1px solid rgb(185, 183, 183);
+     margin: auto;
+     display: flex; 
+     }
+     #leftdiv{
+         width: 30%;
+     }
+     #cont1{
+         width: 60%;
+         height: 330px;
+         border: 1px solid red;
+         margin: auto;
+         margin-top: 50px;
+         display: flex;
+     }
+     #leftdiv{
+         width: 50%;
+         height: 100%;
+         display: flex;
+         justify-content: center;
+     }
+     #leftdiv>div>h1{
+         font-size: 40px;
+     }
+     #leftdiv>div>div{
+   flex-direction: column;
+     }
+  #leftdiv>div>button{
+      width: 280px;
+      height: 40px;
+      background-color: rgb(226, 85, 109);
+      font-size: 18px;
+      color: rgb(6, 71, 19);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  #D1{
+     width: 60%;
+         height: 600px;
+         border: 1px solid red;
+         margin: auto;
+         margin-top: 50px;
+         display: flex
+
+
+
+  }
+  #D1>div>img:nth-child(1){
+     width: 100%;
+     flex-direction: row;
+     align-items: baseline;
+     margin-top: 220px;
+  }
+  #D1>div:nth-child(2){
+     margin-top: 120px;
+    
+  }
+  #D1>div:nth-child(3){
+     margin-top: 120px;
+    
+  }
+  #D2{
+     width: 60%;
+         height: 600px;
+         border: 1px solid red;
+         margin: auto;
+         margin-top: 50px;
+         display: flex
+
+
+
+  }
+  #D2{
+ font-size: 35px;
+ align-items: center;
+ padding-left: 10px;
+}
+#D2 button{
+ width: 150px;
+ height: 50px;
+ font-size: 20px;
+ background-color: black;
+ color: white;
+ margin-left: 40px;
+
+
+}
+#D2>div>img{
+ width: 100%;
+}
+#D2>div>h4{
+ padding-left: 40px;
+}
+#D2>div:nth-child(4){
+ width: 22%;
+}
+#D3{
+     width: 60%;
+         height: 600px;
+         border: 1px solid red;
+         margin: auto;
+         margin-top: 50px;
+         display: flex
+
+  }
+  #D3>div>img{
+     width: 100%;
+  }
+  #D3{
+     position: relative;
+  }
+  .inside{
+     position: absolute;
+bottom: 400px;
+right: 20px;
+background-color: rgb(169, 38, 38);
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+ 
+  }
+  
