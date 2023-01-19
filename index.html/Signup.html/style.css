@@ -1,0 +1,102 @@
+#Navbar{
+    width:90% ;
+    height: 80px;
+    /* border: 1px solid rgb(131, 126, 126); */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+     }
+     .in{
+      width: 350px;
+      height: 50px;
+      margin-left: 10px;
+      margin-top: 15px;
+      font-size: 15px;
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     }
+     #Navbar img{
+        width: 9%;
+     }
+     #Navbar h2{
+          margin-left: 50px;
+     }
+     #Navbar>a{
+     color: rgb(195, 72, 140);
+
+  }
+  #Navbar h3{
+     font-weight: 200;
+  }
+  #profile h3{
+    color: rgb(240, 14, 191);
+  }
+
+
+  #Profile{
+     width: 30%;
+     height: 580px;
+     border: 1px solid red;
+     margin: auto;
+     text-align: center;
+  }
+  .a{
+     text-align: center;
+  }
+  #Profile>img{
+     width: 100%;
+  }
+  #Profile>h3{
+     text-align: center;
+  }
+  body{
+    background-color: rgb(252, 246, 251);
+  }
+  .username input{
+   
+    margin-top: 20px;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+   
+    
+  }
+  .password input{
+   
+    margin-top: 25px;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+  }
+
+  .forgot{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 100px;
+
+  }
+  .si .Sin{
+    width: 200px;
+    height: 35px;
+    margin-top: 25px;
+    background-color:rgb(232, 89, 194) ;
+    border: none;
+    color: rgb(254, 251, 251);
+    font-size: 20px;
+    border-radius: 10px;
+   
+  }
+  .signup{
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+  }
+.signup span{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(235, 141, 227);
+    margin-left: 20px;
+}
