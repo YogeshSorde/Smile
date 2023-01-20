@@ -6,7 +6,7 @@
     display: flex;
      }
      #Nav1>a{
-     color: rgb(195, 72, 140);
+      color:rgb(244, 51, 151)
   }
      .in{
       width: 350px;
@@ -16,6 +16,16 @@
       font-size: 15px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      }
+     /* .in{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      top: 40px;
+      background-color: aqua;
+      height: 400px;
+      width: 100%;
+
+     } */
      #Nav1 h2{
           margin-left: 50px;
      }
@@ -29,9 +39,11 @@
      border: 1px solid rgb(185, 183, 183);
      margin: auto;
      display: flex; 
+    
      }
      #leftdiv{
          width: 30%;
+         background-color: rgb(249, 249, 249);
      }
      #cont1{
          width: 60%;
@@ -53,26 +65,29 @@
      #leftdiv>div>div{
    flex-direction: column;
      }
-  #leftdiv>div>button{
+  #leftdiv button{
       width: 280px;
       height: 40px;
-      background-color: rgb(226, 85, 109);
+      background-color:  rgb(244, 51, 151);
       font-size: 18px;
-      color: rgb(6, 71, 19);
+      color: rgb(234, 239, 235);
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   }
   #D1{
      width: 60%;
          height: 600px;
-         border: 1px solid red;
+         /* border: 1px solid red; */
          margin: auto;
          margin-top: 50px;
-         display: flex
+         display: flex;
+         background-image: url(https://images.meesho.com/images/marketing/1649759774600.jpg);
+         
 
 
 
   }
+  
   #D1>div>img:nth-child(1){
      width: 100%;
      flex-direction: row;
@@ -93,7 +108,8 @@
          border: 1px solid red;
          margin: auto;
          margin-top: 50px;
-         display: flex
+         display: flex;
+         background: transparent;
 
 
 
@@ -125,7 +141,7 @@
 #D3{
      width: 60%;
          height: 600px;
-         border: 1px solid red;
+         /* border: 1px solid red; */
          margin: auto;
          margin-top: 50px;
          display: flex
@@ -146,5 +162,13 @@ color: white;
 padding-left: 20px;
 padding-right: 20px;
  
+  }
+  .subnav{
+   position: absolute;
+   width: 95vw;
+   height: 400px;
+   /* background-color: rgb(204, 228, 228); */
+   
+
   }
   
