@@ -16,9 +16,10 @@
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
      }
-     #Navbar img{
+     
+     /* #Navbar img{
         width: 9%;
-     }
+     } */
      #Navbar h2{
           margin-left: 50px;
      }
