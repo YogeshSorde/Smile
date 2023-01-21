@@ -1,0 +1,22 @@
+#Nav1{
+   width:90% ;
+   height: 80px;
+   /* border: 1px solid rgb(131, 126, 126); */
+   margin: auto;
+   display: flex;
+    }
+    #Nav1>a{
+     color:rgb(244, 51, 151)
+ }
+    .in{
+     width: 350px;
+     height: 50px;
+     margin-left: 100px;
+     margin-top: 15px;
+     font-size: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #Nav1 img{
+      width: 35%;
+    }
